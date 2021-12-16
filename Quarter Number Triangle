@@ -1,0 +1,14 @@
+public class quarterNumberDiamond {
+
+	public static void main(String[] args) {
+  
+  for (int rows = 5; rows >= 1 ; rows--) {
+
+			for (int column = 1; column <= rows; column++) {
+				 System.out.print( column+ " ");
+			}
+			System.out.println();
+		}
+  }
+
+}
